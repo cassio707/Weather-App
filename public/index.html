@@ -6,7 +6,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="style/main.css">
 </head>
-<body class="bg-zinc-300">
-    
+<body class="w-full h-screen flex items-center justify-center">
+    <!--contet area-->
+    <main class="bg-zinc-300/30 text-white w-1/3 mx-auto h-1/2 rounded-2xl backdrop-blur-sm p-4 flex flex-col items-center justify-center gap-y-5">
+        <!--Title-->
+        <h1 class="text-2xl font-bold">Enter City Name :</h1>
+        <!--Serach Area-->
+        <div class="flex relative">
+            <!--search input-->
+            <input type="text" class="p-4 rounded-2xl text-black/80 placeholder:text-black/50 focus:outline-dotted outline-white" placeholder="Enter city name">
+            <!--button-->
+            <button class="absolute right-0 bottom-0 bg-slate-800 text-white p-4 rounded-r-2xl">
+                <!--icon-->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                  </svg>                  
+            </button>
+        </div>
+    </main>
 </body>
 </html>
