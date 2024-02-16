@@ -4,5 +4,8 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "tailwind" : "yarn tailwindcss -i ./src/input.css -o ./public/main.css --watch"
   }
 }
