@@ -8,7 +8,7 @@
 </head>
 <body class="w-full h-screen flex items-center justify-center">
     <!--contet area-->
-    <main class="bg-zinc-300/30 text-white w-1/3 mx-auto h-1/2 rounded-2xl backdrop-blur-sm p-4 flex flex-col items-center justify-center gap-y-5">
+    <main id="mainTag" class="bg-zinc-300/30 text-white w-1/3 mx-auto h-auto rounded-2xl backdrop-blur-sm p-4 flex flex-col items-center justify-center gap-y-5">
         <!--Title-->
         <h1 class="text-2xl text-center font-bold w-2/3">Enter City Name </h1>
         <!--Serach Area-->
@@ -22,6 +22,13 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                   </svg>                  
             </button>
+        </div>
+        <!--city content-->
+        <div id="city-contet" class="invisible flex flex-col w-1/2 text-2xl">
+            <img id="city-img" class="w-1/2" src="image/icon.png" alt="icon">
+            <span id="temp-span" class="w-full"></span>
+            <span id="Precipitation-span" class="w-full"></span>
+            <span id="status-span" class="w-full"></span>
         </div>
     </main>
     <script src="script/app.js"></script>
